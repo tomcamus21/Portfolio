@@ -1,0 +1,133 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="A propos | Tom Camus" description="A propos Tom Camus">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="À propos"
+				tagline="Pour en apprendre un peu plus sur moi..."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/utbm.png"
+					alt="Jeanine White at work with a colleague"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Situation</h2>
+				<div class="content">
+					<p>
+						
+					</p>
+					<p>
+						Actuellement en dernière année d'école d'ingénieur à l'Université de technologie de Belfort-Montbéliard,
+						je suis actuellement à la recherche d'un stage en conception produit ou conception véhicule.
+						J'étudie en fillière mécanique et ergonomie. Cela m'a permis de développer de solide compétence en conception mécanique en
+						faisant toujours passer l'expérience utilisateur au premier plan. Passionné par la conception et l'innovation, 
+						Je cherche toujours à travailler avec ouverture d'esprit et méthode lors de mes projets pour obtenir le meilleur résultat possible.
+						J'espère que les projets que je vous présente ici vous plairons et vous donnerons un aperçu de mes compétences techniques. 
+						
+					
+						
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p>	Diplôme d'ingénierie mécanique (En cour) <br>                
+						Université de technologie de Belfort-Montbéliard <br>
+						Département : Ergonomie, Design et Ingénierie Mécanique</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>- Travail en équipe
+
+						- Conception à objectif de coût<br>
+						
+						- Conception produit<br>
+						
+						- Conception surfacique<br>
+						
+						- Conception véhicule<br>
+						
+						- Montée en compétence en autonomie<br>
+						
+						- CAO/Simulation<br>
+						
+						
+						</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
