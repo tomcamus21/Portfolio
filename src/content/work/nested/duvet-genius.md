@@ -13,7 +13,7 @@ tags:
 
 
 
-Dans ce projet d'éco coneption, nous devions concevoir de A à Z un véhicule monopersonnel électrique adapté à un environnement urbain. Nous sommes passés par toutes les étapes de la conception : l'analyse des besoins, l'ergonomie du poste de conduite, la conception du châssis, le design du véhicule, la conception surfacique de la carrosserie, la direction, le dimensionnement de la motorisation électrique et de la batterie. Tout cela a abouti à un véhicule d'une capacité de 1,5 place, avec un siège amovible dans le coffre du véhicule pour offrir la possibilité d'emmener occasionnellement un second passager ou de disposer d'espace supplémentaire dans le coffre.
+Dans ce projet d'éco conception, nous devions concevoir de A à Z un véhicule monopersonnel électrique adapté à un environnement urbain. Nous sommes passés par toutes les étapes de la conception : l'analyse des besoins, l'ergonomie du poste de conduite, la conception du châssis, le design du véhicule, la conception surfacique de la carrosserie, la direction, le dimensionnement de la motorisation électrique et de la batterie. Tout cela a abouti à un véhicule d'une capacité de 1,5 place, avec un siège amovible dans le coffre du véhicule pour offrir la possibilité d'emmener occasionnellement un second passager ou de disposer d'espace supplémentaire dans le coffre.
 
 L'objectif était également de limiter au maximum l'impact écologique du véhicule. En optimisant son poid, en utilisant des matériaux composites, en choisissant le moteur et les batteries adaptées ou encore en optimisant géométriquement les châssis.
 
