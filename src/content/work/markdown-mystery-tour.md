@@ -31,7 +31,7 @@ Dans le cadre de ce projet lié à une Unité de Valeur de conception surfacique
 ### Conception des surfaces
 
 
-Dans le processus de conception, j'ai utilisé l'atelier GSD de CatiaV5 pour la construction du modèle CAO, suivi de l'outil Assembly Design pour la symétrie et l'assemblage. Le but étant de tracer les courbe de la voiture et de les assembler pour créer des surfaces.
+Dans le processus de conception, j'ai utilisé l'atelier GSD de CatiaV5 pour la construction du modèle CAO, suivi de l'outil Assembly Design pour la symétrie et l'assemblage. Le but était de tracer les courbes de la voiture et de les assembler pour créer des surfaces.
 
 Pour créer les courbes, j'ai principalement utilisé des splines redélimitées associées à des courbes paramétrées en courbure, en contrôlant les tensions pour obtenir une courbe précise. Cette approche m'a permis de reproduire avec précision des courbes issues d'images.
 
@@ -71,7 +71,7 @@ Pour obtenir un modèle conforme à la réalité, il est important de respecter 
 				/>
 
 #### Rendus 3D
-Enfin j'ai nettoyé un maximum le modèle pour l'exporter sur Keyshot11 et obtenir un rendu 3D réaliste.
+Enfin, j'ai nettoyé un maximum le modèle pour l'exporter sur Keyshot11 et obtenir un rendu 3D réaliste.
 
 <img
 					alt=""
